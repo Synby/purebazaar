@@ -146,7 +146,6 @@
       <description translate="no">
         <p>Some improvements:</p>
         <ul>
-          <li>Make the global progress bar customizable with pride flags! Check preferences</li>
           <li>Add a new world map page to the download statistics dialog</li>
           <li>Allow clicking on entries on transaction sidebar to navigate to the original store page</li>
           <li>Add Alexander Vanhee to the developer credits</li>

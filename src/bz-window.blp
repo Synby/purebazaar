@@ -122,7 +122,6 @@ template $BzWindow: Adw.ApplicationWindow {
                     active: bind template.state as <$BzStateInfo>.transaction-manager as <$BzTransactionManager>.active;
                     pending: bind template.state as <$BzStateInfo>.transaction-manager as <$BzTransactionManager>.pending;
                     fraction: bind template.state as <$BzStateInfo>.transaction-manager as <$BzTransactionManager>.current-progress;
-                    settings: bind template.state as <$BzStateInfo>.settings;
 
                     child: Image {
                       halign: end;
@@ -399,7 +398,6 @@ template $BzWindow: Adw.ApplicationWindow {
                           active: bind template.state as <$BzStateInfo>.transaction-manager as <$BzTransactionManager>.active;
                           pending: bind template.state as <$BzStateInfo>.transaction-manager as <$BzTransactionManager>.pending;
                           fraction: bind template.state as <$BzStateInfo>.transaction-manager as <$BzTransactionManager>.current-progress;
-                          settings: bind template.state as <$BzStateInfo>.settings;
 
                           child: Image {
                             halign: end;
