@@ -39,14 +39,11 @@ Pre-built binaries are distributed via Flathub and GitHub actions:
 
 <a href='https://flathub.org/apps/details/io.github.kolunmi.Bazaar'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
 
-[![Build Flatpak and Upload Artifact](https://github.com/kolunmi/bazaar/actions/workflows/build-flatpak.yml/badge.svg)](https://github.com/kolunmi/bazaar/actions/workflows/build-flatpak.yml)
+[![Build Flatpak and Upload Artifact](https://github.com/pureblue-os/purebazaar/actions/workflows/build-flatpak.yml/badge.svg)](https://github.com/pureblue-os/purebazaar/actions/workflows/build-flatpak.yml)
 
 ### Supporting
 
-If you would like to support me and the development of this
-application (Thank you!), I have a ko-fi here! <https://ko-fi.com/kolunmi> 
-
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/kolunmi)
+This is a fork maintained by Pureblue OS. For the original project, visit [kolunmi/bazaar](https://github.com/kolunmi/bazaar).
 
 Thanks to everyone in the GNOME development community for creating
 such an awesome desktop environment!

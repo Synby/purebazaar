@@ -29,14 +29,14 @@
     <name>Adam Masciola</name>
   </developer>
 
-  <url type="homepage">https://github.com/kolunmi/bazaar</url>
-  <url type="vcs-browser">https://github.com/kolunmi/bazaar</url>
-  <url type="bugtracker">https://github.com/kolunmi/bazaar/issues</url>
-  <url type="translate">https://github.com/kolunmi/bazaar/tree/master/po</url>
-  <url type="faq">https://github.com/kolunmi/bazaar/blob/master/README.md</url>
-  <url type="help">https://github.com/kolunmi/bazaar/discussions</url>
-  <url type="contact">https://github.com/kolunmi</url>
-  <url type="contribute">https://github.com/kolunmi/bazaar</url>
+  <url type="homepage">https://github.com/pureblue-os/purebazaar</url>
+  <url type="vcs-browser">https://github.com/pureblue-os/purebazaar</url>
+  <url type="bugtracker">https://github.com/pureblue-os/purebazaar/issues</url>
+  <url type="translate">https://github.com/pureblue-os/purebazaar/tree/master/po</url>
+  <url type="faq">https://github.com/pureblue-os/purebazaar/blob/master/README.md</url>
+  <url type="help">https://github.com/pureblue-os/purebazaar/discussions</url>
+  <url type="contact">https://github.com/pureblue-os</url>
+  <url type="contribute">https://github.com/pureblue-os/purebazaar</url>
 
   <translation type="gettext">bazaar</translation>
   <launchable type="desktop-id">io.github.kolunmi.Bazaar.desktop</launchable>
@@ -68,7 +68,7 @@
 
   <releases>
     <release version="0.5.10" date="2025-11-12">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.10</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.10</url>
       <description translate="no">
         <p>This release comes with the following improvements:</p>
         <ul>
@@ -79,7 +79,7 @@
       </description>
     </release>
     <release version="0.5.9" date="2025-11-08">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.9</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.9</url>
       <description translate="no">
         <p>This release comes with the following improvements:</p>
         <ul>
@@ -92,7 +92,7 @@
       </description>
     </release>
     <release version="0.5.8" date="2025-10-29">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.8</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.8</url>
       <description translate="no">
         <p>This release comes with the following improvements:</p>
         <ul>
@@ -102,7 +102,7 @@
       </description>
     </release>
     <release version="0.5.7" date="2025-10-27">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.7</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.7</url>
       <description translate="no">
         <p>This release comes with the following improvements:</p>
         <ul>
@@ -114,7 +114,7 @@
       </description>
     </release>
     <release version="0.5.6" date="2025-10-15">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.6</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.6</url>
       <description translate="no">
         <p>This release comes with the following improvements:</p>
         <ul>
@@ -127,7 +127,7 @@
       </description>
     </release>
     <release version="0.5.5" date="2025-10-09">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.5</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.5</url>
       <description translate="no">
         <p>More improvements:</p>
         <ul>
@@ -142,7 +142,7 @@
       </description>
     </release>
     <release version="0.5.4" date="2025-10-04">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.4</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.4</url>
       <description translate="no">
         <p>Some improvements:</p>
         <ul>
@@ -154,7 +154,7 @@
       </description>
     </release>
     <release version="0.5.3" date="2025-10-02">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.3</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.3</url>
       <description translate="no">
         <p>Some improvements:</p>
         <ul>
@@ -166,7 +166,7 @@
       </description>
     </release>
     <release version="0.5.2" date="2025-09-29">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.2</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.2</url>
       <description translate="no">
         <p>This release includes:</p>
         <ul>
@@ -190,70 +190,70 @@
       </description>
     </release>
     <release version="0.5.1" date="2025-09-27">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.1</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.1</url>
     </release>
     <release version="0.5.0" date="2025-09-26">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.5.0</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.5.0</url>
     </release>
     <release version="0.4.11" date="2025-09-15">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.11</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.11</url>
     </release>
     <release version="0.4.10" date="2025-09-12">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.10</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.10</url>
     </release>
     <release version="0.4.9" date="2025-09-11">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.9</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.9</url>
     </release>
     <release version="0.4.8" date="2025-09-08">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.8</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.8</url>
     </release>
     <release version="0.4.7" date="2025-09-07">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.7</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.7</url>
     </release>
     <release version="0.4.6" date="2025-09-05">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.6</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.6</url>
     </release>
     <release version="0.4.5" date="2025-09-01">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.5</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.5</url>
     </release>
     <release version="0.4.4" date="2025-08-30">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.4</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.4</url>
     </release>
     <release version="0.4.3" date="2025-08-26">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.3</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.3</url>
     </release>
     <release version="0.4.2" date="2025-08-26">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.2</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.2</url>
     </release>
     <release version="0.4.1" date="2025-08-24">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.1</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.1</url>
     </release>
     <release version="0.4.0" date="2025-08-21">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.4.0</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.4.0</url>
     </release>
     <release version="0.3.2" date="2025-08-17">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.3.2</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.3.2</url>
     </release>
     <release version="0.3.1" date="2025-08-16">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.3.1</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.3.1</url>
     </release>
     <release version="0.3.0" date="2025-08-11">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.3.0</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.3.0</url>
     </release>
     <release version="0.2.3" date="2025-07-14">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.2.3</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.2.3</url>
     </release>
     <release version="0.2.2" date="2025-07-09">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.2.2</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.2.2</url>
     </release>
     <release version="0.2.1" date="2025-07-07">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.2.1</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.2.1</url>
     </release>
     <release version="0.2.0" date="2025-07-07">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.2.0</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.2.0</url>
     </release>
     <release version="0.1.0" date="2025-06-24">
-      <url type="details">https://github.com/kolunmi/bazaar/releases/tag/v0.1.0</url>
+      <url type="details">https://github.com/pureblue-os/purebazaar/releases/tag/v0.1.0</url>
     </release>
   </releases>
 </component>

@@ -495,8 +495,8 @@ bz_application_about_action (GSimpleAction *action,
       "version", PACKAGE_VERSION,
       "copyright", "© 2025 Adam Masciola",
       "license-type", GTK_LICENSE_GPL_3_0,
-      "website", "https://github.com/kolunmi/bazaar",
-      "issue-url", "https://github.com/kolunmi/bazaar/issues",
+      "website", "https://github.com/pureblue-os/purebazaar",
+      "issue-url", "https://github.com/pureblue-os/purebazaar/issues",
       "release-notes", release_notes_text,
       NULL);
 
