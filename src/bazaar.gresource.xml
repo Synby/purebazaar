@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/io/github/kolunmi/Bazaar/">
+  <gresource prefix="/io/github/pureblue_os/purebazaar/">
 
     <file alias="style.css">gtk/style.css</file>
 
     <file preprocess="xml-stripblanks">main-config-schema.xml</file>
     <file preprocess="xml-stripblanks">bz-content-provider-config-schema.xml</file>
-    <file>release-notes.xml</file>
 
     <file>countries.json</file>
 

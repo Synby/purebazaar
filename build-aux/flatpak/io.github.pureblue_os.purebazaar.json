@@ -1,5 +1,5 @@
 {
-  "id": "io.github.kolunmi.Bazaar",
+  "id": "io.github.pureblue_os.purebazaar",
   "runtime": "org.gnome.Platform",
   "runtime-version": "49",
   "sdk": "org.gnome.Sdk",

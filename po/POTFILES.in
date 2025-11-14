@@ -1,8 +1,8 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
-data/io.github.kolunmi.Bazaar.desktop.in
-data/io.github.kolunmi.Bazaar.gschema.xml
-data/io.github.kolunmi.Bazaar.metainfo.xml.in
+data/io.github.pureblue_os.purebazaar.desktop.in
+data/io.github.pureblue_os.purebazaar.gschema.xml
+data/io.github.pureblue_os.purebazaar.metainfo.xml.in
 src/bz-addons-dialog.blp
 src/bz-addons-dialog.c
 src/bz-app-tile.blp

@@ -51,9 +51,9 @@ main (int   argc,
   g_debug ("Constructing main application object...");
   app = g_object_new (
       BZ_TYPE_APPLICATION,
-      "application-id", "io.github.kolunmi.Bazaar",
+      "application-id", "io.github.pureblue_os.purebazaar",
       "flags", G_APPLICATION_HANDLES_COMMAND_LINE,
-      "resource-base-path", "/io/github/kolunmi/Bazaar",
+      "resource-base-path", "/io/github/pureblue_os/purebazaar",
       NULL);
 
   g_debug ("Running!");

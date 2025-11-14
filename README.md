@@ -1,61 +1,20 @@
-<h1 align="center">
-<img src="data/icons/hicolor/scalable/apps/io.github.kolunmi.Bazaar.svg" width="128" height="128" />
-<br/>
-Bazaar
-</h1>
+# Bazaar
 
-<p align="center">Discover and install applications</p>
+A modern app store for GNOME that lets you discover and install applications from Flatpak remotes, particularly [Flathub](https://flathub.org/).
 
-<div align="center">
-    <picture>
-        <source srcset="https://github.com/user-attachments/assets/cc545658-31fc-4cc5-b512-a4c17a2af454" media="(prefers-color-scheme: dark)">
-        <img width="512" alt="Screenshot showing Bazaar's Flathub page" src="https://github.com/user-attachments/assets/b712f5de-ea5f-4f06-b834-d41b9265a192" style="max-width: 100%; height: auto;">
-    </picture>
-</div>
+![Screenshot showing Bazaar's Flathub page](screenshots/flathub.png)
 
-Bazaar is a new app store for GNOME with a focus on discovering and installing
-applications and add-ons from Flatpak remotes, particularly
-[Flathub](https://flathub.org/). It emphasizes supporting the developers who
-make the Linux desktop possible. Bazaar features a "curated" tab that can be
-configured by distributors to allow for a more localized experience.
+Bazaar is fast and highly multi-threaded, providing a smooth browsing experience. You can queue multiple downloads and run them simultaneously while exploring apps. It runs as a service, maintaining state even when windows are closed, and integrates with GNOME Shell search.
 
-Bazaar is fast and highly multi-threaded, guaranteeing a smooth
-experience in the user interface. You can queue as many downloads as 
-you wish and run them while perusing Flathub's latest releases. 
-This is due to the UI being completely decoupled from all backend operations.
+## Features
 
-It runs as a service, meaning state will be maintained even if you
-close all windows, and implements the gnome-shell search provider dbus
-interface. A krunner
-[plugin](https://github.com/ublue-os/krunner-bazaar) is available for
-use on the KDE Plasma desktop.
+- Fast & responsive multi-threaded architecture
+- Queue and manage multiple downloads simultaneously
+- Runs as a background service
+- GNOME Shell search integration
+- Curated content support for distributors
 
-Thanks to [Jakub Steiner](http://jimmac.eu) for designing Bazaar's
-icon.
-
-### Installing
-
-Pre-built binaries are distributed via Flathub and GitHub actions:
-
-<a href='https://flathub.org/apps/details/io.github.kolunmi.Bazaar'><img width='240' alt='Download on Flathub' src='https://flathub.org/assets/badges/flathub-badge-en.png'/></a>
-
-[![Build Flatpak and Upload Artifact](https://github.com/pureblue-os/purebazaar/actions/workflows/build-flatpak.yml/badge.svg)](https://github.com/pureblue-os/purebazaar/actions/workflows/build-flatpak.yml)
-
-### Supporting
-
-This is a fork maintained by Pureblue OS. For the original project, visit [kolunmi/bazaar](https://github.com/kolunmi/bazaar).
-
-Thanks to everyone in the GNOME development community for creating
-such an awesome desktop environment!
-
-### Contributing
-
-> [!NOTE]
-> If you are a distributor/packager who would like to learn how to
-customize Bazaar, take a look at the [docs](/docs/overview.org).
-
-If you would like to try this project on your local machine, clone it
-on the cli and type these commands inside the project root:
+## Build and Run
 
 ```sh
 meson setup build --prefix=/usr/local
@@ -64,18 +23,6 @@ sudo ninja -C build install
 bazaar
 ```
 
-You will need the following dependencies installed, along with a C compiler, meson, and ninja:
-| Dep Name                                                | `pkg-config` Name | Min Version            | Justification                                       |
-|---------------------------------------------------------|-------------------|------------------------|-----------------------------------------------------|
-| [gtk4](https://gitlab.gnome.org/GNOME/gtk/)             | `gtk4`            | enforced by libadwaita | GUI                                                 |
-| [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) | `libadwaita-1`    | `1.8`                  | GNOME styling                                       |
-| [libdex](https://gitlab.gnome.org/GNOME/libdex)         | `libdex-1`        | `1.0`                  | Async helpers                                       |
-| [flatpak](https://github.com/flatpak/flatpak)           | `flatpak`         | `1.9`                  | Flatpak installation management                     |
-| [appstream](https://github.com/ximion/appstream)        | `appstream`       | `1.0`                  | Download application metadata                       |
-| [xmlb](https://github.com/hughsie/libxmlb)              | `xmlb`            | `0.3.4`                | Handle binary xml appstream bundles/Parse plain xml |
-| [glycin](https://gitlab.gnome.org/GNOME/glycin)         | `glycin-2`        | `2.0`                  | Retrieve and decode image uris                      |
-| [glycin-gtk4](https://gitlab.gnome.org/GNOME/glycin)    | `glycin-gtk4-2`   | `2.0`                  | Convert glycin frames to `GdkTexture`s              |
-| [libyaml](https://github.com/yaml/libyaml)              | `yaml-0.1`        | `0.2.5`                | Parse YAML configs                                  |
-| [libsoup](https://gitlab.gnome.org/GNOME/libsoup)       | `libsoup-3.0`     | `3.6.0`                | HTTP operations                                     |
-| [json-glib](https://gitlab.gnome.org/GNOME/json-glib)   | `json-glib-1.0`   | `1.10.0`               | Parse HTTP replies from Flathub                     |
-| [md4c](https://github.com/mity/md4c)                    | `md4c`            | `0.5.1`                | Parse markdown (.md)                                |
+---
+
+This repo is a minimal fork of [kolunmi/bazaar](https://github.com/kolunmi/bazaar)

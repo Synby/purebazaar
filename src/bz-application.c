@@ -461,43 +461,22 @@ bz_application_about_action (GSimpleAction *action,
   BzApplication *self   = user_data;
   GtkWindow     *window = NULL;
   AdwDialog     *dialog = NULL;
-  g_autoptr(GBytes) release_notes_bytes = NULL;
-  const char *release_notes_text = NULL;
-
-  const char *developers[] = {
-    C_ ("About Dialog Developer Credit", "Adam Masciola <kolunmi@posteo.net>"),
-    C_ ("About Dialog Developer Credit", "Alexander Vanhee"),
-    /* This array MUST be NULL terminated */
-    NULL
-  };
 
   g_assert (BZ_IS_APPLICATION (self));
 
   window = gtk_application_get_active_window (GTK_APPLICATION (self));
   dialog = adw_about_dialog_new ();
 
-  release_notes_bytes = g_resources_lookup_data (
-      "/io/github/kolunmi/Bazaar/release-notes.xml",
-      G_RESOURCE_LOOKUP_FLAGS_NONE,
-      NULL);
-
-  if (release_notes_bytes != NULL)
-    release_notes_text = g_bytes_get_data (release_notes_bytes, NULL);
-
   g_object_set (
       dialog,
       "application-name", "Bazaar",
-      "application-icon", "io.github.kolunmi.Bazaar",
-      "developer-name", _ ("Adam Masciola"),
-      "developers", developers,
+      "application-icon", "io.github.pureblue_os.purebazaar",
       // Translators: Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
       "translator-credits", _ ("translator-credits"),
       "version", PACKAGE_VERSION,
-      "copyright", "© 2025 Adam Masciola",
+      "copyright", "© 2025 Pureblue OS",
       "license-type", GTK_LICENSE_GPL_3_0,
-      "website", "https://github.com/pureblue-os/purebazaar",
-      "issue-url", "https://github.com/pureblue-os/purebazaar/issues",
-      "release-notes", release_notes_text,
+      "website", "https://github.com/kolunmi/bazaar",
       NULL);
 
   adw_dialog_present (dialog, GTK_WIDGET (window));
@@ -716,7 +695,7 @@ init_service_struct (BzApplication *self)
       g_autoptr (GHashTable) parse_results = NULL;
 
       parser = bz_yaml_parser_new_for_resource_schema (
-          "/io/github/kolunmi/Bazaar/main-config-schema.xml");
+          "/io/github/pureblue_os/purebazaar/main-config-schema.xml");
 
       parse_results = bz_yaml_parser_process_bytes (
           parser, config_bytes, &local_error);
